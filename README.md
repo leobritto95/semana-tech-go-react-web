@@ -29,7 +29,23 @@ Este é o frontend da aplicação AMA (Ask Me Anything) desenvolvido com Vite, R
    ```bash
    npm run build
    ```
-2. Sirva a build com qualquer servidor estático.
+2. Você pode usar qualquer servidor estático de sua preferência para servir os arquivos do build ou usar o `serve`.
+
+   Usando `serve`:
+
+   Primeiro, instale o serve globalmente:
+
+   ```bash
+   npm install -g serve
+   ```
+
+   Em seguida, sirva o build na porta desejada (por exemplo, 3000):
+
+   ```bash
+   serve -l 3000 -s build
+   ```
+
+   Agora você pode acessar a aplicação no navegador em http://localhost:3000.
 
 ## Backend
 
