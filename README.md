@@ -12,7 +12,7 @@ Este é o frontend da aplicação AMA (Ask Me Anything) desenvolvido com Vite, R
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/leobritto95/semana-tech-go-react-server
+   git clone https://github.com/leobritto95/semana-tech-go-react-web
    ```
 2. Instale as dependências:
    ```bash
