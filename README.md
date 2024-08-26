@@ -8,6 +8,16 @@ Este é o frontend da aplicação AMA (Ask Me Anything) desenvolvido com Vite, R
 - **React**
 - **Tailwind CSS**
 
+## Configuração do Ambiente
+
+1. Crie um arquivo `.env` na raiz do projeto. Esse arquivo conterá variáveis de ambiente necessárias para a aplicação.
+
+2. Use o seguinte modelo como exemplo para o conteúdo do arquivo `.env`:
+
+   ```env
+   VITE_APP_API_URL="http://localhost:8080/api"
+   ```
+
 ## Como Rodar
 
 1. Clone o repositório:
